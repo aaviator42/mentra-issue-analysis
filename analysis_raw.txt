@@ -1,0 +1,133 @@
+Loading bug issues...
+Found 57 bug issues
+
+============================================================
+MENTRAOS BUG ANALYSIS REPORT
+============================================================
+
+TOTAL BUG ISSUES: 57
+OPEN: 36 | CLOSED: 21
+
+BUG CATEGORIES:
+  Bluetooth Pairing: 5 (5.2%)
+  Translation Language: 3 (3.1%)
+  Streaming Media: 5 (5.2%)
+  Permissions Android: 4 (4.2%)
+  Ios Specific: 10 (10.4%)
+  App Crashes: 9 (9.4%)
+  Ui Navigation: 7 (7.3%)
+  Cloud Sync: 10 (10.4%)
+  Hardware Integration: 3 (3.1%)
+  Performance: 2 (2.1%)
+  Wifi Connectivity: 4 (4.2%)
+  Developer Console: 3 (3.1%)
+  Error Handling: 1 (1.0%)
+  Audio Processing: 9 (9.4%)
+  Gallery Media: 1 (1.0%)
+  State Synchronization: 3 (3.1%)
+  Ble Communication: 1 (1.0%)
+  Camera Functionality: 5 (5.2%)
+  Other: 11 (11.5%)
+
+PLATFORM BREAKDOWN:
+  Android: 9 (15.8%)
+  Ios: 5 (8.8%)
+  Both: 5 (8.8%)
+  Unspecified: 38 (66.7%)
+
+HARDWARE MODEL BREAKDOWN:
+  Even Realities G1: 4 (7.0%)
+  Mentra Live: 13 (22.8%)
+  Unspecified: 41 (71.9%)
+
+TESTING STRATEGY ANALYSIS:
+How these bugs could be caught:
+  Automated Tests Could Catch: 11 (19.3%)
+  Device Matrix Testing Needed: 20 (35.1%)
+  Manual Workflow Testing Needed: 14 (24.6%)
+  Environment Dependent Hard To Test: 12 (21.1%)
+
+TOP OPEN BUGS BY CATEGORY:
+
+Bluetooth Pairing (Open Issues):
+  1. #1122: Simulated Glasses sometimes fails to pair
+  2. #1287: Mentra Client automatically tries to connect to previously-paired glasses, despite bluetooth being in partially-off state
+  3. #1298: List of compatible apps is buggy when switching between glasses
+
+Translation Language (Open Issues):
+  1. #1245: [Cloud] Create UserSettings Manager, and deprecate old web-socket settings system
+
+Streaming Media (Open Issues):
+  1. #1155: RTMP stream crashes if the user takes a picture while streaming
+  2. #1219: Mentra Live RTMP streaming failures need better feedback
+  3. #1220: Mentra Live RTMP streaming is unreliable under poor internet
+
+Permissions Android (Open Issues):
+  1. #1140: TPA Permissions: Silent failure when trying to access a sensor without that permission permission
+  2. #1264: "Read Notification" permissions request can fail for old Android versions
+
+Ios Specific (Open Issues):
+  1. #1054: settings get reset between connections
+  2. #1107: Teleprompter crashes over certain length
+  3. #1109: Client crash when editing TPA settings [see issue]
+
+App Crashes (Open Issues):
+  1. #1107: Teleprompter crashes over certain length
+  2. #1109: Client crash when editing TPA settings [see issue]
+  3. #1115: Client is not resilient to server failures
+
+Ui Navigation (Open Issues):
+  1. #1019: Clicking account verification email on desktop goes to a black page
+  2. #1054: settings get reset between connections
+  3. #1155: RTMP stream crashes if the user takes a picture while streaming
+
+Cloud Sync (Open Issues):
+  1. #1109: Client crash when editing TPA settings [see issue]
+  2. #1114: Client <> Cloud app state get out of sync
+  3. #1115: Client is not resilient to server failures
+
+Hardware Integration (Open Issues):
+  1. #1140: TPA Permissions: Silent failure when trying to access a sensor without that permission permission
+
+Performance (Open Issues):
+  1. #1220: Mentra Live RTMP streaming is unreliable under poor internet
+
+Wifi Connectivity (Open Issues):
+  1. #1218: Mentra Live photo taking (via SDK) is flakey
+  2. #1219: Mentra Live RTMP streaming failures need better feedback
+
+Audio Processing (Open Issues):
+  1. #1068: [Android] Audio issues when MentraOS is running microphone
+  2. #1113: Local transcription not working on both iOS/Android
+  3. #1133: G1 mic on iOS is broken
+
+Gallery Media (Open Issues):
+  1. #1301: Unhandled SoftException when leaving gallery page
+
+State Synchronization (Open Issues):
+  1. #1114: Client <> Cloud app state get out of sync
+  2. #1187: [Cloud] Don't show boot screen if app is not started due to capabilities miss match, or app deleted from db. and remove stopped / not running apps from running Apps in DB.
+  3. #1287: Mentra Client automatically tries to connect to previously-paired glasses, despite bluetooth being in partially-off state
+
+Ble Communication (Open Issues):
+  1. #1218: Mentra Live photo taking (via SDK) is flakey
+
+Camera Functionality (Open Issues):
+  1. #1137: Mira is broken on Mentra Live
+  2. #1218: Mentra Live photo taking (via SDK) is flakey
+  3. #1268: Mentra Live: StreamPackLite has hardcoded rotation
+
+Other (Open Issues):
+  1. #1119: [Android] Some phone notifications get missed/dropped
+  2. #1195: Media player keep stoping video
+  3. #1196: Tpa is not responsive
+
+============================================================
+KEY INSIGHTS FOR TESTING STRATEGY
+============================================================
+
+• 35% need device matrix testing
+• 21% are environment-dependent (hard to automate)
+• 25% need manual workflow testing
+• 19% could be caught by automated tests
+
